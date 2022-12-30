@@ -9,6 +9,8 @@
 
 ## Items needed
 
+> **Note :** this is an educational project and the design goal is not a professional tool.
+
 | items                                                                                        | #Q  |
 | -------------------------------------------------------------------------------------------- | --- |
 | Arduino Uno Board                                                                            | 1   |
@@ -62,7 +64,11 @@ In this way, the temperature remains constant
 - Go to the **Port** menu again through the same Tools menu and select the USB port number through which the Arduino board is connected to the computer from the drop-down list.
 - In the end, to transfer the program to the Arduino board, it is enough to click on the **upload** icon to program the program on the Arduino board in the Arduino software.
 
----
+## How to use
+
+After entering the necessary codes, connect the board to the computer through a serial port and from the serial part of the monitor, we can set our desired temperature by entering the number of that temperature. You can also connect the board to your phone with a OTG Make these settings using the [Serial USB Terminal](https://play.google.com/store/apps/details?id=de.kai_morich.serial_usb_terminal&hl=fa&gl=US&pli=1) program tool, which is the same as the serial monitor of the Arduino editor
+
+## ![enter image description here](https://www.linkpicture.com/q/Screenshot-from-2022-12-30-23-30-28.png)
 
 > GitHub [@pezhvak98](https://github.com/pezhvak98) &nbsp;&middot;&nbsp;
 > Twitter [@pezhvak_98](https://twitter.com/pezhvak_98)
