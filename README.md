@@ -9,7 +9,8 @@
 
 ## Items needed
 
-> **Note :** this is an educational project and the design goal is not a professional tool.
+> **Note**
+> this is an educational project and the design goal is not a professional tool.
 
 | items                                                                                        | #Q  |
 | -------------------------------------------------------------------------------------------- | --- |
