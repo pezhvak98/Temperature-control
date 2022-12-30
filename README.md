@@ -68,7 +68,7 @@ In this way, the temperature remains constant
 
 After entering the necessary codes, connect the board to the computer through a serial port and from the serial part of the monitor, we can set our desired temperature by entering the number of that temperature. You can also connect the board to your phone with a OTG Make these settings using the [Serial USB Terminal](https://play.google.com/store/apps/details?id=de.kai_morich.serial_usb_terminal&hl=fa&gl=US&pli=1) program tool, which is the same as the serial monitor of the Arduino editor
 
-## ![enter image description here](https://www.linkpicture.com/q/Screenshot-from-2022-12-30-23-30-28.png)
+## [![image](https://www.linkpicture.com/q/Screenshot-from-2022-12-30-23-30-28.png)](https://www.linkpicture.com/view.php?img=LPic63af440db3c922033888547)
 
 > GitHub [@pezhvak98](https://github.com/pezhvak98) &nbsp;&middot;&nbsp;
 > Twitter [@pezhvak_98](https://twitter.com/pezhvak_98)
