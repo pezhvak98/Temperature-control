@@ -96,15 +96,27 @@ void loop()
     delay(2000);
     Display1.display(Digitos);
   }
-  if (Temp_IN > TempSettings)
+  delay(50);
+  if (Temp_IN < (TempSettings - 0.2))
   {
-    digitalWrite(PinRelay1, LOW);
-    digitalWrite(PinRelay2, HIGH);
-  }
-  if (Temp_IN < TempSettings)
-  {
+    // delay(500);
     digitalWrite(PinRelay1, HIGH);
+    Serial.println("Heater on");
     digitalWrite(PinRelay2, LOW);
+  }
+  if (Temp_IN > (TempSettings + 0.9))
+  {
+    do
+    {
+      digitalWrite(PinRelay1, LOW);
+      delay(800);
+      digitalWrite(PinRelay2, HIGH);
+      Serial.println("fan on");
+
+    } while (Temp_IN == (TempSettings));
+    digitalWrite(PinRelay2, HIGH);
+    digitalWrite(PinRelay1, HIGH);
+    Serial.println("BOTH OFF");
   }
   delay(1500);
   Serial.println("    "); // add space
